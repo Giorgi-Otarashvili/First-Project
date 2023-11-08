@@ -1,5 +1,28 @@
 @media (max-width: 744px) {
+header{
+    /* header */
+    padding: 9px 24px;
+}
+h1 a{
+    display: flex;
+    flex-direction: column;
+    font-size: 32px;
+    line-height: 39px;
+    align-items: center;
+    line-height: 39px;
+}
 
+.logo_span  {
+    margin-left: 0;
+}
+/* main  */
+.main_h2 {
+    margin-inline:40px;
+}
+
+.main_p {
+    margin: 8px 0 22px;
+}
     /* section2  */
 
     .section2 {
@@ -54,4 +77,31 @@
     row-gap: 24px;
  }
    
+}
+
+/* new media  */
+
+@media (max-width: 550px) {
+    /* section4  */
+
+
+.emailid_form {
+    padding: 0 50px;
+}
+
+
+.emailid_label {
+    font-size: 32px;
+    line-height: 39px; 
+  
+    text-align: center;
+} 
+
+#emailid {
+    padding-left: 10px;
+    gap: 0 ;
+}
+.emailid_button {
+    padding: 17px 5px;
+}
 }

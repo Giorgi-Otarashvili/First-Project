@@ -46,12 +46,17 @@
 width: 100% ;}
 }
 
+
+/* new media  */
+
+
 @media (max-width: 1024px) {
 
     /* footer  */
     footer { padding: 32px;}
 }
 
+/* new media  */
 
 
 @media (max-width: 900px) {
@@ -73,8 +78,9 @@ width: 100% ;}
     /* section1 */
 .section1{
     flex-wrap:wrap;
-    width: 384px;
+    /* width: 384px; */
     margin: 160px auto;
+    row-gap: 40px;
    
 }
 
@@ -93,7 +99,14 @@ width: 100% ;}
     
 }
 
+/* new media  */
+
 @media (max-width: 820px) {
+/* header  */
+    h1:hover {
+    
+        transform: scale(1.2);
+    }
 
     /* footer  */
     footer {
