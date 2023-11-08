@@ -1,0 +1,57 @@
+@media (max-width: 744px) {
+
+    /* section2  */
+
+    .section2 {
+        padding: 96px 27px;
+        flex-wrap: wrap;
+        height: 903px;
+        overflow-x: scroll;
+    }
+    .section2_images {
+        flex-direction: column;
+       
+    } 
+    /* pic box */
+    .section2_images_box1 {
+        width: 100%;
+    
+    }
+    .section2_images_box2 {
+        width: 100%;
+        
+    
+    }
+    .section2_images_box1_insaidbox {
+        display: flex;
+        flex-direction:column ;
+    }
+
+    /* pictures  */
+    .section2_box1_img3 {
+        width: 100%;
+        margin-bottom: 40px;
+        
+
+    }
+
+    .section2_box1_img2 {
+        width: 100% ;
+        margin-bottom: 40px;
+    }
+
+
+    .section2_box1_img1,.section2_box1_img4  {
+       
+        margin-bottom: 40px;
+    }
+     
+    
+ /* section 5  */
+
+ .section5_article_box {
+    flex-direction: column;
+    row-gap: 24px;
+ }
+   
+}
