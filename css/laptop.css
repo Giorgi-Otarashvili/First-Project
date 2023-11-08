@@ -70,6 +70,7 @@ width: 100% ;}
         display: none;
     }
 
+ 
 /* main  */
     .main_p {
         width: 100%;
@@ -78,7 +79,7 @@ width: 100% ;}
     /* section1 */
 .section1{
     flex-wrap:wrap;
-    /* width: 384px; */
+    width: 384px;
     margin: 160px auto;
     row-gap: 40px;
    
