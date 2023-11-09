@@ -3,6 +3,9 @@ header{
     /* header */
     padding: 9px 24px;
 }
+.header_nav {
+    top: 96px;
+}
 h1 a{
     display: flex;
     flex-direction: column;
@@ -15,7 +18,9 @@ h1 a{
 .logo_span  {
     margin-left: 0;
 }
+
 /* main  */
+
 .main_h2 {
     margin-inline:40px;
 }
@@ -33,17 +38,16 @@ h1 a{
     }
     .section2_images {
         flex-direction: column;
-       
     } 
+
     /* pic box */
+
     .section2_images_box1 {
         width: 100%;
     
     }
     .section2_images_box2 {
         width: 100%;
-        
-    
     }
     .section2_images_box1_insaidbox {
         display: flex;
@@ -51,11 +55,10 @@ h1 a{
     }
 
     /* pictures  */
+
     .section2_box1_img3 {
         width: 100%;
         margin-bottom: 40px;
-        
-
     }
 
     .section2_box1_img2 {
@@ -76,14 +79,13 @@ h1 a{
     flex-direction: column;
     row-gap: 24px;
  }
-   
-}
+   }
 
 /* new media  */
 
 @media (max-width: 550px) {
+    
     /* section4  */
-
 
 .emailid_label {
     font-size: 32px;
