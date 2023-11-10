@@ -446,6 +446,10 @@ button:hover {
     background: rgba(213, 144, 110, 0.30);
 }
 
+.section5_articles:hover {
+    border: 5px solid  rgba(213, 144, 110, 0.30);
+}
+
 .section5_article_h3 {
     color: #B53B1B;
     font-family: 'Inter', sans-serif;
