@@ -79,12 +79,63 @@ h1 a{
     flex-direction: column;
     row-gap: 24px;
  }
+
+
+    /* ARTWORKS CSS STYLES  */
+/* Cover  */
+.Search_Form {
+    justify-content: space-between;
+    gap: 0;
+    width: 80%;
+}
+
+.Cover_H2 {
+    width: 70%;
+    font-size: 32px;
+    line-height: normal;
+    text-align: center;
+}
+
+
    }
+
+/* new media  */
+@media (max-width: 720px) {
+
+
+   /* ARTWORKS CSS STYLES  */
+/* Artworks_Shop  */
+.Artworks_Shop_H2 {
+    font-size: 22px;
+}
+.Short_Button {
+    width: 120px;
+    font-size: 16px;
+    padding: 6px 15px;
+}
+
+    .Artworks_box {
+        width: 100%;
+    }
+    .Artworks_none {
+        display: none;
+    }
+}
+
 
 /* new media  */
 
 @media (max-width: 550px) {
     
+/* main  */
+
+    .cover  {
+        background-image: url(../img/Rectangle\ 109.png);
+        background-repeat: no-repeat;
+        background-size:auto 100%;
+        object-fit: cover;
+      
+    }
     /* section4  */
 
 .emailid_label {
@@ -100,5 +151,12 @@ h1 a{
 }
 .emailid_button {
     padding: 17px 5px;
+}
+
+   /* ARTWORKS CSS STYLES  */
+/* Cover  */
+
+.Search_Button  {
+    padding: 5px 25px 5px 25px;
 }
 }

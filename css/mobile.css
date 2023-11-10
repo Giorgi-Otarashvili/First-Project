@@ -11,13 +11,8 @@
         margin-inline: 1px;
     }
     
-/* main  */
 
-    main  {
-        background-image: url(../img/Rectangle\ 109.png);
-        background-repeat: no-repeat;
-        background-size:auto 100%;
-    }
+
 
     /* section1  */
     .section1 {
@@ -57,8 +52,32 @@ margin-bottom: 20px;
     margin-bottom: 24px;
 }
 
+ /* ARTWORKS CSS STYLES  */
+/* Cover  */
+.Cover {
+    background-image: url(../img/Rectangle\ 110.png);
+height: 400px;
+}
+ .Cover_H2 {
+    position: absolute;
+    top: 137px;
+ }
+ .Search_Form {
+    position: absolute;
+    top: 240px;
+ }
+/* Artworks_Shop  */
+
+
+.Artworks_Shop {
+ margin: 64px 0;
+ /* margin-bottom: 64px; */
 }
 
+.Artworks_Article_Box {
+    row-gap: 32px;
+}
+}
 
 
 /* new media  */
@@ -70,9 +89,20 @@ margin-bottom: 20px;
         width: 140px;
        
         }
-        
+
+           /* ARTWORKS CSS STYLES  */
+/* Cover  */
+#Search_Input {
+    padding-left: 5px;
 }
 
+.Search_Button  {
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
+}
+
+        
+}
 
 
 
