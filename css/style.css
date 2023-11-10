@@ -542,7 +542,7 @@ line-height: 24px;
     margin-inline: 24px;
 }
 
-.footer_right_icons:hover {
+.footer_right_icons:hover, .leftbox_text:hover {
 color: red;
 }
 
