@@ -93,11 +93,16 @@ width: 100% ;}
 /* CONTACT_section  */
 
 .CONTACT_section {
-    /* margin: 160px 24px; */
-    /* width: 80%; */
+    height: 100%;
+}
+.CONTACT_ARTICLE {
+    flex-direction: column;
 }
 
-
+.MAP {
+    width: 100%;
+    margin-top: 40px;
+}
 
 
 

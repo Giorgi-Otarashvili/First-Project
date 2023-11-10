@@ -741,7 +741,7 @@ height: 720px;
 
 position: absolute;
 top: 208px;
-left: 222px;
+left: calc(222 / 1440 * 100%);
 display: flex;
 flex-direction: column;
 width: 500px;
@@ -818,11 +818,13 @@ line-height: 19px; /* 118.75% */
 }
 
 /* CONTACT_section  */
+
 .CONTACT_section {
     background: rgba(213, 144, 110, 0.30);
 margin: 160px auto;
 width: calc(1200 / 1440 * 100%);
 height: 408px;
+
 
 }
 
