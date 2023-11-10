@@ -77,7 +77,31 @@ height: 400px;
 .Artworks_Article_Box {
     row-gap: 32px;
 }
+
+/* CONTACT CSS */
+/* COVER  */
+.COVER {
+    background-image: url(../img/Rectangle\ 111.png);
+height: 560px;
 }
+
+.CONTACTFORM_label {
+    font-size: 32px;;
+    line-height: normal;
+    }
+    .CONTACTFORM_insidebox {
+        column-gap: 80px;
+    
+    }
+    .CONTACTFORM {
+     
+        width: 100%;
+        left: 0;
+      
+    }
+}
+
+
 
 
 /* new media  */
@@ -101,6 +125,13 @@ height: 400px;
     font-size: 12px;
 }
 
+/* CONTACT CSS */
+/* COVER  */
+
+    .CONTACTFORM_insidebox {
+        column-gap: 50px;
+    
+    }
         
 }
 

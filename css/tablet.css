@@ -97,6 +97,16 @@ h1 a{
 }
 
 
+
+/* CONTACT CSS */
+/* COVER  */
+.COVER {
+    background-image: url(../img/Rectangle\ 106.png);
+}
+.CONTACTFORM {
+   
+    left: 24px;
+}
    }
 
 /* new media  */
@@ -159,4 +169,44 @@ h1 a{
 .Search_Button  {
     padding: 5px 25px 5px 25px;
 }
+
+
+/* CONTACT CSS */
+/* COVER  */
+
+.COVER {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CONTACTFORM {
+    padding: 24px;
+    width: 90%;
+  
+}
+
+.CONTACTFORM_insidebox {
+
+    column-gap: 95px;
+
+}
+.CONTACTFORM_insidebox {
+    justify-content: space-between;
+
+}
+
+#NAME, #EMAIL {
+
+    width: 100%;
+    padding: 12px 0 12px 8px;
+}
+
+#MESSAGE {
+    width: 100%;
+    padding: 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
 }

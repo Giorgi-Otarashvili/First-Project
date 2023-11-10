@@ -730,6 +730,95 @@ background-color: rgba(213, 144, 110, 0.30);
 .fa-cart-plus:hover {
     background-color: red;}
 
+/* CONTACT CSS */
+/* COVER  */
+.COVER{
+    background-image: url(../img/Rectangle\ 108.png);
+height: 720px;
+}
+
+.CONTACTFORM {
+
+position: absolute;
+top: 208px;
+left: 222px;
+display: flex;
+flex-direction: column;
+width: 500px;
+height: 400px;
+padding: 24px 30px;
+justify-content: space-between;
+align-items: flex-start;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid #FFF;
+background: rgba(64, 33, 1, 0.73);
+box-shadow: -1px -1px 4px 0px #FFF;
+}
+
+.CONTACTFORM_insidebox {
+    display: flex;
+    column-gap: 60px;
+    margin-bottom: 40px;
+}
+
+.CONTACTFORM_label {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: 48px; 
+}
+#NAME {
+    display: flex;
+width: 190px;
+padding: 11px 116px 12px 8px;
+align-items: center;
+border-radius: 10px;
+border: 2px solid #FFF;
+background-color: transparent;
+}
+#EMAIL {
+    display: flex;
+width: 190px;
+padding: 12px 146px 11px 8px;
+align-items: center;
+border-radius: 10px;
+border: 2px solid #FFF;
+background-color: transparent;
+}
+#MESSAGE {
+    display: flex;
+width: 440px;
+height: 96px;
+padding: 8px 372px 71px 8px;
+align-items: center;
+flex-shrink: 0;
+border-radius: 10px;
+border: 2px solid #FFF;
+background-color: transparent;
+}
+
+.CONTACT_FORMBTN {
+    display: inline-flex;
+    height: 56px;
+    padding: 19px 42px 18px 43px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+background: #D5906E;
+color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px; /* 118.75% */
+}
+
+
+/* NEW MEDIA  */
 @media (max-width: 1320px) {
 
 /* ARTWORKS - SECTION - Artworks_Shop  */
