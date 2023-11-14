@@ -61,6 +61,7 @@ height: 400px;
  .Cover_H2 {
     position: absolute;
     top: 137px;
+    font-size: 32px;
  }
  .Search_Form {
     position: absolute;
@@ -96,9 +97,9 @@ height: 560px;
     .CONTACTFORM {
      
         width: 100%;
-        left: 0;
-      
+left: 0;      
     }
+  
 /* CONTACT_section  */
 .CONTACT_section {
 
@@ -144,5 +145,15 @@ height: 560px;
         
 }
 
+/* NEW MEDIA  */
+@media (max-width: 340px) {
+     /* ARTWORKS CSS STYLES  */
+/* Cover  */
 
-
+ .Cover_H2 {
+    top: 120px;
+ }
+ .Search_Form {
+    top: 250px;
+ }
+}

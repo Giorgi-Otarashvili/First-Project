@@ -41,6 +41,11 @@ header {
     line-height: normal;
 }
 
+.header_li a:hover{
+  color: red;
+  transition: 0.5s linear;
+
+}
 .active a {
     color: #D5906E;
 }
@@ -773,31 +778,37 @@ line-height: 48px;
 #NAME {
     display: flex;
 width: 190px;
-padding: 11px 116px 12px 8px;
+padding: 11px ;
 align-items: center;
 border-radius: 10px;
 border: 2px solid #FFF;
 background-color: transparent;
+color: #FFF;
+
 }
 #EMAIL {
     display: flex;
 width: 190px;
-padding: 12px 146px 11px 8px;
+padding: 12px ;
 align-items: center;
 border-radius: 10px;
 border: 2px solid #FFF;
 background-color: transparent;
+color: #FFF;
+
 }
 #MESSAGE {
     display: flex;
 width: 440px;
 height: 96px;
-padding: 8px 372px 71px 8px;
+padding: 8px;
 align-items: center;
 flex-shrink: 0;
 border-radius: 10px;
 border: 2px solid #FFF;
 background-color: transparent;
+resize: none;
+color: #FFF;
 }
 
 .CONTACT_FORMBTN {
@@ -886,4 +897,9 @@ flex-shrink: 0;
 .Artworks_box {
     width: 48%;
 }
+
+}
+
+#MESSAGE {
+    /* width: 100%; */
 }
